@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
-from streamlit_login_auth_ui.widgets import __login__
+#from streamlit_login_auth_ui.widgets import __login__
 import streamlit_authenticator as stauth
 
 import yaml
