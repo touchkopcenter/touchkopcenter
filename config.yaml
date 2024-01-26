@@ -1,17 +1,37 @@
+# credentials:
+#   usernames:
+#     jsmith:
+#       email: jsmith@gmail.com
+#       name: 7512301
+#       password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC  # To be replaced with hashed password
+#     tony:
+#       email: rbriggs@gmail.com
+#       name: 7561459
+#       password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC # To be replaced with hashed password
+# cookie:
+#   expiry_days: 30
+#   key: random_signature_key # Must be string
+#   name: random_cookie_name
+# preauthorized:
+#   emails:
+#   - melsby@gmail.com
+
 credentials:
   usernames:
     jsmith:
       email: jsmith@gmail.com
-      name: 7512301
-      password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC  # To be replaced with hashed password
-    tony:
+      logged_in: False # Will be managed automatically
+      name: John Smith
+      password: abc # Will be hashed automatically
+    rbriggs:
       email: rbriggs@gmail.com
-      name: 7561459
-      password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC # To be replaced with hashed password
+      logged_in: False # Will be managed automatically
+      name: Rebecca Briggs
+      password: def # Will be hashed automatically
 cookie:
   expiry_days: 30
-  key: random_signature_key # Must be string
-  name: random_cookie_name
+  key: some_signature_key # Must be string
+  name: some_cookie_name
 preauthorized:
   emails:
   - melsby@gmail.com
