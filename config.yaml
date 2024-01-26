@@ -2,12 +2,12 @@ credentials:
   usernames:
     jsmith:
       email: jsmith@gmail.com
-      name: John Smith
+      name: 7512301
       password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC  # To be replaced with hashed password
-    rbriggs:
+    tony:
       email: rbriggs@gmail.com
-      name: Rebecca Briggs
-      password: def # To be replaced with hashed password
+      name: 7561459
+      password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC # To be replaced with hashed password
 cookie:
   expiry_days: 30
   key: random_signature_key # Must be string

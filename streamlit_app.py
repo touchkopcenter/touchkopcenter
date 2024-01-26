@@ -57,11 +57,14 @@ if st.session_state["authentication_status"]:
     st.write(f'Welcome *{st.session_state["name"]}*')
     st.title('Some content')
     st.button("Refresh Program",on_click=clear_cache)
+    keyss = st.session_state["name"]
+    st.write(keyss)
 
     title = st.text_input('')
+    # title = keyss
     st.write('Search for ', title)
-    st.button("Find Data",on_click=load_data(title))
-    # load_data(title)
+    # st.button("Find Data",on_click=load_data(title))
+    load_data(str(keyss))
 
 elif st.session_state["authentication_status"] is False:
     st.error('Username/password is incorrect')
