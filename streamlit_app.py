@@ -50,7 +50,8 @@ def clear_cache():
 
 
 hashed_passwords = stauth.Hasher(['abc', 'def']).generate()
-authenticator.login('Login', 'main')
+authenticator.login('main')
+
 
 if st.session_state["authentication_status"]:
     authenticator.logout('Logout', 'main', key='unique_key')
