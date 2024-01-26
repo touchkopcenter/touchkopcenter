@@ -21,14 +21,14 @@ credentials:
     jsmith:
       email: jsmith@gmail.com
       logged_in: True # Will be managed automatically
-      name: John Smith
+      name: 7512301
       password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC
        # Will be hashed automatically
     rbriggs:
       email: rbriggs@gmail.com
       logged_in: False # Will be managed automatically
-      name: Rebecca Briggs
-      password: def # Will be hashed automatically
+      name: 7561459
+      password: $2b$12$Y0KSeMFSHSp.rZw1SlWeHOkVz0v56z4k/rN1WzCKV68hdhPWnKbWC # Will be hashed automatically
 cookie:
   expiry_days: 30
   key: some_signature_key # Must be string
